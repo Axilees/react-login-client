@@ -79,6 +79,7 @@ class Login extends Component {
                             variant="contained"
                             color="primary"
                             className={classes.submit}
+                            onClick={this.props.login}
                         >
                             Sign in
                         </Button>
